@@ -16,7 +16,7 @@ function Container() {
     <div>
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-3xl md:text-4xl mt-24">Powered By</h1>
-        <img className="mt-6" src={Devfolio}className="h-24 md:h-36 p-6 rounded-lg cursor-pointer" alt="Devfolio"></img>
+        <img src={Devfolio} className="h-24 mt-6 md:h-36 p-6 rounded-lg cursor-pointer" alt="Devfolio"></img>
       </div>
       <div className="flex flex-col justify-center items-center">
         <div className="justify-center items-center">
