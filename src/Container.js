@@ -22,26 +22,26 @@ function Container() {
         <div className="justify-center items-center">
           <h1 className="text-center text-3xl md:text-4xl mt-10 font-semibold underline text-primary">Gold Sponsors</h1>
           <div className="grid md:grid-cols-3 sm:grid-cols-2 space-x-9 justify-center items-center mt-8">
-            <img src={Polygon} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
-            <img src={Tezos} className="h-24 md:h-36 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
-            <img src={Filecoin} className="h-24 md:h-36 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
-            <img src={Celo} className="h-24 md:h-36 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
-            <img src={Karo} className="h-36 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
+            <a href="https://polygon.technology/"><img src={Polygon} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
+            <a href="https://tezos.com/"><img src={Tezos} className="h-24 md:h-36 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
+            <a href="https://filecoin.io/"><img src={Filecoin} className="h-24 md:h-36 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
+            <a href="https://celo.org/"><img src={Celo} className="h-24 md:h-36 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
+            <a href="https://karoverify.xyz/"><img src={Karo} className="h-36 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
           </div>
         </div>
         <div className="justify-center items-center">
           <h1 className="text-center text-3xl md:text-4xl mt-10 font-semibold underline text-primary">Silver Sponsors</h1>
-          <img src={IandT} className="h-64 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
+          <a href="https://www.linkedin.com/company/internship-training/"><img src={IandT} className="h-64 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
         </div>
         <div className="justify-center items-center">
         <h1 className="text-center text-3xl md:text-4xl mt-10 font-semibold underline text-primary">Sponsors</h1>
         <div className="grid md:grid-cols-3 sm:grid-cols-2 space-x-9 justify-center items-center mt-8">
           
-          <img src={DO} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
-          <img src={Taskade} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
-          <img src={XYZ} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
-          <img src={Streamyard} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
-          <img src={Replit} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img>
+          <a href="https://www.digitalocean.com/"><img src={DO} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
+          <a href="https://www.taskade.com/"><img src={Taskade} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
+          <a href="https://gen.xyz/"><img src={XYZ} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
+          <a href="https://streamyard.com/"><img src={Streamyard} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
+          <a href="https://replit.com/"><img src={Replit} className="h-24 p-6 rounded-lg cursor-pointer" alt="Polygon"></img></a>
           </div>
         </div>
       </div>
